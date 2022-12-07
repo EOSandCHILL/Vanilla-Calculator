@@ -40,13 +40,16 @@ body {
 .calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 3px solid rgb(255, 255, 255);
   outline: none;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.499);
+  transition: 0.5s ease;
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 1);
+  transition: 0.5s ease;
 }
 
 .span-two {
